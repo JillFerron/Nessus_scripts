@@ -25,6 +25,7 @@ python nessus_scraper.py -b <nessusPluginStartNum> -e <nessusPluginEndNum> -o <c
 
 
 3. parse_html_to_csv.py
+
 Parse a Nessus html report and save the output to a csv file. Written in python3 requires requests library and bs4.
 
 ```bash
