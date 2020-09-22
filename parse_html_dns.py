@@ -9,12 +9,12 @@ def main(argv):
 	try:
 		opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
 	except getopt.GetoptError:
-		print "[+] Usage: python parse_nessus.py -i <Nessus html report> -o <outputfile>"
+		print "[+] Usage: python parse_html_dns.py -i <Nessus html report> -o <outputfile>"
 		sys.exit(2)
 
 	for opt, arg in opts:
 		if opt == '-h':
-			print "[+] Usage: python parse_nessus.py -i <Nessus html report> -o <csv outputfile>"
+			print "[+] Usage: python parse_html_dns.py -i <Nessus html report> -o <csv outputfile>"
 			sys.exit()
 		elif opt in ('-i', '--ifile'):
 			inputfile = arg

@@ -10,7 +10,7 @@ Extract FQDN and IPs from HTML report. Useful to cross check duplicate resources
 
 ```bash
 pip install bs4
-python parse_nessus.py -i <html report> -o <csv output file>
+python parse_html_dns.py -i <html report> -o <csv output file>
 ```
 
 
